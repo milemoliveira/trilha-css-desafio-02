@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+header div img {
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.videos {
+    margin: 0 0 16px 25px;
+}
+
+.principal{
+    margin-left: 65px;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button {
+    height: 40px;
+    width: 140px;
+    background-color: #CC0000;
+    color:white;
+    border: none;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 25px;
+    object-fit: scale-down;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.menu-principal img {
+    vertical-align: sub;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+a img {
+    margin-right: 10px;
+}
+
+#descricao {
+    color: #515151;
+}
